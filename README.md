@@ -6,3 +6,6 @@ https://laderast.github.io/index.html
 
 library(distill)
 create_website(dir = ".", title = "mfeo")
+
+postcards::create_postcard(template = "jolla", file = "about.Rmd")
+
